@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo Kody Hiroishi | Portfolio</title>
+  <meta name="description" content="Portfólio de Hugo Kody Hiroishi para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/icons8-keyboard-50.png" alt="">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Portifólio</b> de projetos</h1>
+      <p>Hugo Kody Hiroishi, Guarulhos-SP.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/hugokody" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/html-5.svg" alt="Logo HTML 5">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/js.svg" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo CSS">
+      </li>
+      
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/pokedex.png" alt="Pokedex">
+        <div class="card__body">
+          <h3 class="card__title">Pokedex</h3>
+          <p class="card__description">Pokedex da Primeira Geracão</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de Pokemons;</li>
+            <li class="card__item">Usando PokeAPI;</li>
+            <li class="card__item">Mostrando o Status dos Pokemons.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html-5.svg" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/js.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo CSS">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+            <a href="https://github.com/hugokody/pokedex-js">
+             <button class="btn">
+              <span>Repositório</span>
+             </button> 
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/mundo-invertido.png" alt="Mundo Invertido">
+        <div class="card__body">
+          <h3 class="card__title">Mundo Invertido</h3>
+          <p class="card__description">Landing Page sobre a série Stranger Things.</p>
+          <ul class="card__list">
+            <li class="card__item">Troca de Tema;</li>
+            <li class="card__item">utilizacao de pseudo-elementos em CSS;</li>
+            <li class="card__item">animacoes em CSS.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html5.svg" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/js.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo CSS">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+
+            <a href="https://github.com/hugokody/stranger-things-css-desafio-dio">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/piano-virtual.png" alt="Piano Virtual">
+        <div class="card__body">
+          <h3 class="card__title">Piano Virtual</h3>
+          <p class="card__description">Piano Virtual via HTML, CSS e JavaScript</p>
+          <ul class="card__list">
+            <li class="card__item">Teclas funcionais;</li>
+            <li class="card__item">efeito de sombras das teclas quando pressionadas;</li>
+            <li class="card__item">ajuste de volume.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html5.svg" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/js.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo CSS">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a href="https://github.com/hugokody/piano-js-desafio-dio">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/hugokody">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Hugo Kody Hiroishi. Formaado em Informática para gestão de negócios pela FATEC SBC.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Japoenês: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Tecnólogo em Informática para gestão de negócios.</h4>
+          <span>2012</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>FATEC São Bernardo do Campo</span>
+          </div>
+          
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Vendedor</h4>
+          <span>Livraria da Vila - 2014-2018</span>
+          <span>Responsável por organizacao da loja, entrada de produtos, além de:
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Responsável pela área de Livros de negócios;</li>
+            <li class="about__item">alavancar a venda de mangás, trazendo novos titulos;</li>
+            <li class="about__item">entrada de produtos utilizando sistema proprio.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>HTML Básico e CSS Básico</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Outubro 2024. 17h.
+              </p>
+              <p>
+                Introducao ao HTML, de tags iniciais para formulários. Estilizacao de páginas utilizando o CSS,
+                básico como: cores, elementos, bordas, fontes, textos, sombras
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>JavaScript Básico</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Outubro 2024. 9h.
+              </p>
+              <p>
+                Introducao ao JavaScript, conhecendo as funcoes, arrays, classes e objetos.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Lógica de Programacao Basica</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Outubro 2024. 2h.
+              </p>
+              <p>
+                Entendendo sobre algoritimos e fluxogramas, variaveis, vetores e matrizes.
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/hugokody" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:kody.hugo@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">kody.hugo@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/elidianaandrade" target="_blank">Elidiana Andrade</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
